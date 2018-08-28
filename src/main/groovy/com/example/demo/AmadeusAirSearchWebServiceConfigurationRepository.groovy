@@ -1,0 +1,15 @@
+/*
+ * Copyright (c) 2017 by Indian Eagle LLC.
+ *
+ * All rights reserved. These materials are confidential and proprietary to Indian Eagle LLC. No part of this code may be reproduced, published
+ * in any form by any means (electronic or mechanical, including photocopy or any information storage or retrieval system), nor may the materials
+ * be disclosed to third parties, or used in derivative works without the express written authorization of Indian Eagle LLC.
+ */
+
+package com.example.demo
+
+import org.springframework.data.cassandra.repository.TypedIdCassandraRepository
+
+interface AmadeusAirSearchWebServiceConfigurationRepository extends TypedIdCassandraRepository<AmadeusAirSearchWebServiceConfiguration, AirSearchWSConfigurationKey> {
+
+}
